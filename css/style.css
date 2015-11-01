@@ -394,7 +394,7 @@ footer {
 	clear: both;
 	background-color: #333;
 	color: white;
-	width: 62.5em;
+	width: 73.5em;
 	margin: auto;
 	margin-top: 1.875em;
 	height: 1.875em;
@@ -411,6 +411,10 @@ section {
 		width: 95%;
 	}
 
+	footer {
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 50em) {
@@ -423,6 +427,10 @@ section {
 		margin: 0;
 	}
 
+	aside {
+		width: 10%;
+	}
+
 	.column:nth-child(3) {
 		margin: 0;
 		margin-top: 1.25em;
@@ -432,6 +440,24 @@ section {
 
 	.column:nth-child(3) img {
 		width: 30%;
+	}
+
+	#newsletter fieldset {
+		width: 80%;
+		padding: 5%;
+
+	}
+
+	#newsletter_pic {
+		margin: auto;
+		margin-right: 20%;
+		margin-bottom: 1.25em;
+	}
+
+	footer {
+		width: 90%;
+		height: auto;
+		padding: 5%;
 	}
 }
 
